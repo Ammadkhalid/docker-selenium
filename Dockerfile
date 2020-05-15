@@ -494,8 +494,8 @@ COPY selenium-node-chrome/opt /opt
 COPY lib/* /usr/lib/
 
 # Use a custom wallpaper for Fluxbox
-COPY images/wallpaper-dosel.png /usr/share/images/fluxbox/ubuntu-light.png
-COPY images/wallpaper-zalenium.png /usr/share/images/fluxbox/
+COPY images/itl.cat_wallpaper-test_1885599.png /usr/share/images/fluxbox/ubuntu-light.png
+COPY images/itl.cat_wallpaper-test_1885599.png /usr/share/images/fluxbox/
 RUN chown -R seluser:seluser /usr/share/images/fluxbox/ \
  && chmod -R 777 /usr/share/images/fluxbox
 
