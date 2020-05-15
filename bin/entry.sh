@@ -240,7 +240,7 @@ echo "Please send us a PR if you know how to set the path for the Firefox browse
 # When running for Zalenium prepare certain customizations
 if [ "${ZALENIUM}" == "true" ]; then
   # Set proper desktop background
-  mv -f /usr/share/images/fluxbox/wallpaper-zalenium.png /usr/share/images/fluxbox/ubuntu-light.png
+  mv -f /usr/share/images/fluxbox/itl.cat_wallpaper-test_1885599.png /usr/share/images/fluxbox/ubuntu-light.png
 fi
 
 # TODO: Remove this duplicated logic
